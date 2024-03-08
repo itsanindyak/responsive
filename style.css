@@ -41,13 +41,17 @@ ul {
   list-style: none;
 }
 
+.bb {
+  border: 2px solid black;
+}
+
 /* utility classes */
 
 .container {
   max-width: 1180px;
   margin-inline: auto;
   padding-inline: var(--padding-inline-section);
- 
+  /* border: 1px solid black; */
 }
 .small-bold-text {
   font-size: 1rem;
@@ -169,20 +173,19 @@ header {
 
 /* feature section */
 
-.features-section{
-  background-image: url("");      /*here*/
+.features-section {
+  background-image: url(""); /*here*/
 }
-.features-section{
+.features-section {
   padding: 80px var(--padding-inline-section) 0;
 }
 .feature-header {
   text-align: center;
-
 }
-.feature-header h2{
+.feature-header h2 {
   margin-bottom: 20px;
 }
-.feature-area{
+.feature-area {
   margin: 20px;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -190,10 +193,81 @@ header {
   gap: 40px;
 }
 
-.feature-card{
+.feature-card {
   text-align: center;
   flex-direction: column;
   gap: 20px;
   max-width: 30%;
+}
 
+/* big feature section  */
+.big-feature-section {
+  margin: 30px var(--padding-inline-section) 0;
+}
+.big-feature-container {
+  gap: 30px;
+}
+
+.feature-img img {
+  width: 100%;
+}
+
+.feature-description {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* example section */
+.example-header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+.example-header h2 {
+  margin-bottom: 20px;
+}
+.example-aera {
+  margin: var(--padding-inline-section);
+  justify-content: space-between;
+}
+.example-card {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.085), rgba(0, 0, 0, 0.786)),
+    url("assets/asset 20.png");
+  background-position: center;
+  width: 23%;
+  min-height: 300px;
+  position: relative;
+  transition: 0.3s ease-out;
+}
+.example-card:hover {
+  box-shadow: 0 0 10px black;
+  transform: translateX(1.1);
+ 
+}
+.example-card:nth-child(2) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.085), rgba(0, 0, 0, 0.786)),
+    url("assets/asset 21.png");
+  background-position: center;
+  background-size: cover;
+}
+.example-card:nth-child(3) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.085), rgba(0, 0, 0, 0.786)),
+    url("assets/asset 22.png");
+  background-position: center;
+  background-size: cover;
+}
+.example-card:nth-child(4) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.085), rgba(0, 0, 0, 0.786)),
+    url("assets/asset 23.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.example-card h3 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  color: whitesmoke;
 }
