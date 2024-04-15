@@ -51,7 +51,7 @@ ul {
   max-width: 1180px;
   margin-inline: auto;
   padding-inline: var(--padding-inline-section);
-  /* border: 1px solid black; */
+  border: 1px solid black;
 }
 .small-bold-text {
   font-size: 1rem;
@@ -199,6 +199,9 @@ header {
   gap: 20px;
   max-width: 30%;
 }
+.feature-card img{
+  width: 60px;
+}
 
 /* big feature section  */
 .big-feature-section {
@@ -228,7 +231,7 @@ header {
   margin-bottom: 20px;
 }
 .example-aera {
-  margin: var(--padding-inline-section);
+  margin-block: var(--padding-inline-section);
   justify-content: space-between;
 }
 .example-card {
@@ -243,7 +246,6 @@ header {
 .example-card:hover {
   box-shadow: 0 0 10px black;
   transform: translateX(1.1);
- 
 }
 .example-card:nth-child(2) {
   background-image: linear-gradient(rgba(0, 0, 0, 0.085), rgba(0, 0, 0, 0.786)),
@@ -270,4 +272,50 @@ header {
   left: 20px;
   right: 20px;
   color: whitesmoke;
+}
+
+/* cta section */
+.cta-section{
+  padding: 120px var(--padding-inline-section) 80px;
+  margin-top: 100px;
+  background-color: var(--primary-text-color);
+}
+.cta-container {
+  
+  color: white;
+  justify-content: center;
+  flex-direction: column;
+}
+.cta-container h3{
+  margin-top: 30px;
+}
+
+
+/* footer */
+
+footer{
+  padding-block: 80px;
+  background-color: #ebf2fa;
+}
+
+
+.footer-container{
+align-items: flex-start;
+justify-content: space-between;
+}
+.link-column{
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+/* subfooter */
+.subfooter{
+  background-color: #b9cde4;
+  padding: var(--padding-inline-section);
+}
+.subfooter-container{
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
 }
