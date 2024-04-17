@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQuery.css">
     <title>my Website</title>
   </head>
   <body>
@@ -27,7 +28,7 @@
         <a href="#" class="company-logo">
           <img src="assets/asset 0.png" alt="" />
         </a>
-        <div class="nav-links">
+        <div class="nav-links" id="nav-links">
           <ul class="flex">
             <li><a href="#" class="hover-links">Products</a></li>
             <li><a href="#" class="hover-links">Customer</a></li>
@@ -39,6 +40,7 @@
             <li><a href="#" class="hover-links primary-button">Sign up</a></li>
           </ul>
         </div>
+        <a href="#" class="hover-links nav-toggle" id="toggle"><i class="fa-solid fa-bars"></i></a>
       </div>
     </nav>
 
@@ -84,7 +86,7 @@
         <div class="feature-header">
           <h2>Your user research Swiss Army knife</h2>
           <a href="#" class="secondary-button"
-            >See all features <i class="fa-solid fa-right-long"></i
+            >See all features  <i class="fa-solid fa-right-long"></i
           ></a>
         </div>
         <div class="feature-area flex">
@@ -93,7 +95,7 @@
             <h3>Card Sorting</h3>
             <p>Discover how people group and label information.</p>
             <a href="#" class="secondary-button"
-              >Learn more<i class="fa-solid fa-right-long"></i
+              >Learn more  <i class="fa-solid fa-right-long"></i
             ></a>
           </div>
           <div class="feature-card flex">
@@ -101,7 +103,7 @@
             <h3>Prototype tests</h3>
             <p>Discover how people navigate your Figma prototypes.</p>
             <a href="#" class="secondary-button"
-              >Learn more<i class="fa-solid fa-right-long"></i
+              >Learn more  <i class="fa-solid fa-right-long"></i
             ></a>
           </div>
           <div class="feature-card flex">
@@ -109,7 +111,7 @@
             <h3>First Click Tests</h3>
             <p>Test interaction with first click and navigation tests.</p>
             <a href="#" class="secondary-button"
-              >Learn more<i class="fa-solid fa-right-long"></i
+              >Learn more  <i class="fa-solid fa-right-long"></i
             ></a>
           </div>
           <div class="feature-card flex">
@@ -117,7 +119,7 @@
             <h3>Design surveys</h3>
             <p>Get feedback on images, videos or audio files.</p>
             <a href="#" class="secondary-button"
-              >Learn more<i class="fa-solid fa-right-long"></i
+              >Learn more  <i class="fa-solid fa-right-long"></i
             ></a>
           </div>
           <div class="feature-card flex">
@@ -125,7 +127,7 @@
             <h3>Preference tests</h3>
             <p>Find out which designs users prefer and why.</p>
             <a href="#" class="secondary-button"
-              >Learn more<i class="fa-solid fa-right-long"></i
+              >Learn more  <i class="fa-solid fa-right-long"></i
             ></a>
           </div>
           <div class="feature-card flex">
@@ -133,7 +135,7 @@
             <h3>Five second tests</h3>
             <p>Test comprehensibility by measuring first impressions.</p>
             <a href="#" class="secondary-button"
-              >Learn more<i class="fa-solid fa-right-long"></i
+              >Learn more  <i class="fa-solid fa-right-long"></i
             ></a>
           </div>
         </div>
@@ -159,7 +161,7 @@
     </section>
 
     <section class="big-features-section">
-      <div class="container flex big-feature-container">
+      <div class="container flex big-feature-container" id="second-big-feature">
         <div class="feature-description flex">
           <h4>Optimisation for</h4>
           <h3>Marketers</h3>
@@ -192,7 +194,7 @@
 
     <!-- example section -->
 
-    <section class="example">
+    <section class="example-section">
       <div class="container">
         <div class="example-header flex">
           <h2>One platform, endless possibilities</h2>
@@ -216,6 +218,11 @@
         </div>
       </div>
     </section>
+
+
+    <!-- cta section -->
+
+
 
     <section class="cta-section">
       <div class="container flex cta-container">
@@ -300,8 +307,10 @@
           Terms and conditions
           </a>
         <a href="#" class="hover-links">Security Informations</a>
+        <div class="flex social-meia-links">
         <a href="#"><i class="fa-brands fa-facebook"></i></a>
         <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+      </div>
       </div>
     </section>
 
@@ -309,6 +318,9 @@
       src="https://kit.fontawesome.com/d5a10a9a3e.js"
       crossorigin="anonymous"
     ></script>
-    
+    <script src="app.js">
+
+      
+    </script>
   </body>
 </html>

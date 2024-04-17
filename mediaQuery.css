@@ -1,0 +1,146 @@
+@media screen and (max-width: 991px) {
+  h3 {
+    font-size: 1.2rem;
+  }
+  .nav-toggle {
+    display: block;
+    margin-right: 20px;
+  }
+  .main-nav {
+    overflow: initial;
+  }
+  .nav-links {
+    position: absolute;
+    background-color: white;
+    left: -100%;
+    top: 100%;
+    width: 100%;
+    padding-block: 20px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .nav-links.active {
+    left: 0;
+  }
+  .nav-links ul {
+    flex-direction: column;
+  }
+ 
+  .example-aera {
+    gap: 20px;
+  }
+  .example-card {
+    width: 48%;
+    height: 180px;
+  }
+  .cta-section {
+    padding-block: 80px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .header-section {
+    flex-direction: column-reverse;
+  }
+  .header-left {
+    width: 100%;
+    text-align: center;
+  }
+  .header-right {
+    width: 75%;
+  }
+  .primary-button {
+    width: 100%;
+  }
+  .feature-card {
+    max-width: 40%;
+  }
+  .footer-container {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .link-column {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  :root {
+    --padding-inline-section: 10px;
+  }
+  .small-bold-text {
+    font-size: 0.8rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .company-logo img {
+    width: 200px;
+  }
+  .header-left {
+    max-width: 100%;
+  }
+  .feature-area {
+    margin-top: 50px;
+
+    flex-direction: column;
+  }
+  .feature-card {
+    min-width: 100%;
+  }
+  .feature-card a {
+    font-size: 1rem;
+    min-width: 50%;
+  }
+  .big-features-section {
+    margin-top: 50px;
+  }
+  .big-feature-container {
+    flex-direction: column;
+  }
+  #second-big-feature {
+    flex-direction: column-reverse;
+  }
+  .feature-img {
+    width: 75%;
+  }
+  .feature-description {
+    margin-left: 30px;
+  }
+  .example-card {
+    width: 100%;
+  }
+  .example-aera {
+    margin-top: 30px;
+  }
+
+  .cta-container h3 {
+    text-align: center;
+  }
+
+  .subfooter-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .social-meia-links {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .company-logo img {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .small-bold-text {
+    font-size: 0.7rem;
+  }
+}
