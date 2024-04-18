@@ -69,7 +69,7 @@ text-align :center;
   }
 }
 
-@media screen and (max-width: 435px) {
+@media screen and (max-width: 769px) {
   :root {
     --padding-inline-section: 10px;
   }
