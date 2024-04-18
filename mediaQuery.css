@@ -46,6 +46,10 @@
     width: 100%;
     text-align: center;
   }
+.header-left h1{
+text-align :center;
+
+}
   .header-right {
     width: 75%;
   }
